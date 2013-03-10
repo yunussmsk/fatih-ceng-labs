@@ -7,6 +7,7 @@ public class P4 {
     System.out.println("Enter numbers: ");
 
     int n = s.nextInt(), max = n, count = 1;
+
     while (true) {
       n = s.nextInt();
       if (n == 0) {

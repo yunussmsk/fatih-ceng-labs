@@ -1,5 +1,5 @@
-CEng 102 - Lab 1.1
-==================
+Lab 1.1 - Methods
+=================
 
 1. Generate a random number in range 1-10,
    and draw a square and a right triangle of that size.
