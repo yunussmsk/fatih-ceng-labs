@@ -8,7 +8,7 @@ Lab 1.2 - Arrays
    Hexadecimal digits are: 0123456789ABCDEF
 
    You can get a hexadecimal value by continuously dividing by 16
-   until you get 0 as a quotient. Then display quotient and remainders.
+   until you get 0 as a quotient.
 
         Enter a decimal number: 123
         123 is 7B in hex.
@@ -16,14 +16,12 @@ Lab 1.2 - Arrays
 2. Define a 100 element array and fill it with random lowercase letters.
    Then display how many times each letter is repeated.
 
-3. Write a program which takes as input your birth day, month and year,
+3. Write a program which reads your birth day, month, and year,
    and calculates how many days old you are,
    and on which day of week you were born.
    Each of the calculations should be done in a separate method,
    and their result should be returned to other methods,
    and finally to the main method.
-   The former method is responsible of getting the input from the user and
-   displaying the output.
 
         Enter your birth year, month, and day: 1982 12 16
         Enter today's year, month, and day: 2013 03 10
