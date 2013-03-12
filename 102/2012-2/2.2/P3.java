@@ -9,9 +9,14 @@ public class P3 {
     System.out.print("Enter 9 numbers for matrix B: ");
     double[][] B = readMatrix(3, 3);
 
+    System.out.println("A =");
+    printMatrix(A);
+
+    System.out.println("B =");
+    printMatrix(B);
+
     System.out.println("A x B =");
-    double[][] C = multiply(A, B);
-    printMatrix(C);
+    printMatrix(multiply(A, B));
   }
 
   private static double[][] readMatrix(int m, int n) {
