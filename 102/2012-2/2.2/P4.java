@@ -1,4 +1,4 @@
-import java.util.Scanner;
+ï»¿import java.util.Scanner;
 
 public class P4 {
   private static char[][] grid = new char[3][3];
@@ -49,13 +49,13 @@ public class P4 {
   }
 
   private static void drawGrid() {
-    System.out.println("—————————————");
+    System.out.println("â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”");
     System.out.printf("| %c | %c | %c |\n", grid[0][0], grid[0][1], grid[0][2]);
-    System.out.println("—————————————");
+    System.out.println("â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”");
     System.out.printf("| %c | %c | %c |\n", grid[1][0], grid[1][1], grid[1][2]);
-    System.out.println("—————————————");
+    System.out.println("â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”");
     System.out.printf("| %c | %c | %c |\n", grid[2][0], grid[2][1], grid[2][2]);
-    System.out.println("—————————————");
+    System.out.println("â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”");
   }
 
   private static void getInput() {
