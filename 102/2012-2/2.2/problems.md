@@ -74,3 +74,54 @@ Lab 2.2 - Multidimensional Arrays
           5.30  23.90  24.00
          11.60  56.30  58.20
          17.90  88.70  92.40
+
+4. (Game: TicTacToe)
+   In a game of TicTacToe, two players take turns marking an available cell in
+   a 3x3 grid with their respective tokens (either X or O). When one player has
+   placed three tokens in a horizontal, vertical, or diagonal row on the grid,
+   the game is over and that player has won. A draw (no winner) occurs when all
+   the cells on the grid have been filled with tokens and neither player has
+   achieved a win. Write a program for playing TicTacToe.
+
+        —————————————
+        |   |   |   |
+        —————————————
+        |   |   |   |
+        —————————————
+        |   |   |   |
+        —————————————
+        Enter row and column values (0, 1, or 2) for X: 1 1
+        —————————————
+        |   |   |   |
+        —————————————
+        |   | X |   |
+        —————————————
+        |   |   |   |
+        —————————————
+        Enter row and column values (0, 1, or 2) for O: 1 2
+        —————————————
+        |   |   |   |
+        —————————————
+        |   | X | O |
+        —————————————
+        |   |   |   |
+        —————————————
+           . . .
+        —————————————
+        | X |   |   |
+        —————————————
+        | O | X | O |
+        —————————————
+        |   |   | X |
+        —————————————
+
+        Player X wins!
+
+5. Define a 2D array. The arrays columns (1-31) show the days in a month,
+   while the rows (1-12) show the months. This array should store the annual
+   temperatures in Celcius degree.
+    a. Fill in this two-dimensional array for each month with random numbers in range [-10,+30].
+    b. When the user enters the month as an integer, the monthly temperatures should be shown on the screen.
+    c. Calculate and show each month's average temperature.
+    d. Show the month and day with lowest temperature.
+    e. Show the annual average temperature.
