@@ -8,6 +8,7 @@ public class P4 {
 
   public static void main(String[] args) {
     initGrid();
+
     while (!gameover()) {
       switchPlayer();
       drawGrid();
