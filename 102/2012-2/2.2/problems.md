@@ -117,11 +117,12 @@ Lab 2.2 - Multidimensional Arrays
 
         Player X wins!
 
-5. Define a 2D array. The arrays columns (1-31) show the days in a month,
+5. Define a 2D array. The array's columns (1-31) show the days in a month,
    while the rows (1-12) show the months. This array should store the annual
    temperatures in Celcius degree.
-    * Fill in this two-dimensional array for each month with random numbers in range [-10,+30].
-    * When the user enters the month as an integer, the monthly temperatures should be shown on the screen.
+    * Length of all rows are not equal. February is 28 days.
+    * Fill this 2D array with random numbers in range [-10,+30].
+    * Read month number from user input, and print temperatures for that month.
     * Calculate and show each month's average temperature.
     * Show the month and day with lowest temperature.
     * Show the annual average temperature.

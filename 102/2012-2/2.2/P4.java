@@ -1,4 +1,4 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 
 public class P4 {
   private static char[][] grid = new char[3][3];
@@ -7,6 +7,7 @@ public class P4 {
   private static char player = 'O';
 
   public static void main(String[] args) {
+    initGrid();
     while (!gameover()) {
       switchPlayer();
       drawGrid();
@@ -15,6 +16,12 @@ public class P4 {
     }
 
     endGame();
+  }
+
+  private static void initGrid() {
+    for (int i = 0; i < 3; i++)
+      for (int j = 0; j < 3; j++)
+        grid[i][j] = ' ';
   }
 
   private static boolean gameover() {
@@ -70,7 +77,7 @@ public class P4 {
   }
 
   private static boolean valid() {
-    return 0 <= row && row < 3 && 0 <= col && col < 3 && grid[row][col] == 0;
+    return 0 <= row && row < 3 && 0 <= col && col < 3 && grid[row][col] == ' ';
   }
 
   private static void play() {
