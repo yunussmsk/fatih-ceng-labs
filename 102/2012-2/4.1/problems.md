@@ -23,18 +23,12 @@ Lab 4.1 - Classes and Objects
       three instance variables by calling their set methods.
     * Provide a set and a get method for each instance variable.
     * Set methods set the value to 1 if it is invalid.
-    * Provide a method `displayDate` that
-      displays the `month`, `day`, and `year` separated by forward slashes `/`.
-    * Now, get `date`, `month`, and `year` from user,
-      check if the input is valid, and display the entered date.
+    * Provide a method `toString` that
+      returns the `year`, `month`, and `day` separated by forward slashes `/`.
     * Write a test application named `DateTest` that demonstrates `Date` class.
-    * Using two dates, find out which of them is more recent.
+    * Get `year`, `month`, and `day` from user, and display the entered date.
+    * Read another date, and find out which of them is more recent.
     * To achieve this, add following method to `Date` class:
 
                 boolean isNewerThan(Date d)
-    * Read current date from user input.
-    * Calculate and display `year` difference between these two dates.
-    * Add a method to `Date` class to calculate the exact
-      `year/month/day` difference between to dates:
-
-                Date diff(Date d)
+    * Calculate and display year difference between these two dates.
