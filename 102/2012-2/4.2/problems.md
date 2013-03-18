@@ -1,4 +1,4 @@
-Lab 4.2 -
+Lab 4.2 - Classes and Objects
 =============================
 
 1. Design a class named `Fan` to represent a fan. The class contains:
