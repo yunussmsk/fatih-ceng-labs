@@ -52,6 +52,6 @@ Lab 4.2 - Classes and Objects
     * Draw the UML diagram for the class.
     * Implement the class.
     * Write a test program that creates three `RegularPolygon` objects,
-      with the no-arg constructor, `RegularPolygon(6, 4)`,
+      with the no-arg constructor, `RegularPolygon(4, 6)`,
       and `RegularPolygon(10, 4, 5.6, 7.8)`.
     * For each object, display its perimeter and area.
