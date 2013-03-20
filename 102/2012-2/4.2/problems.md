@@ -21,10 +21,10 @@ Lab 4.2 - Classes and Objects
     * Draw the UML diagram for the class.
     * Implement the class.
     * Write a test program that creates two `Fan` objects.
-    * Assign maximum speed, radius 10, color yellow, and turn it on
-      for the first object.
-    * Assign medium speed, radius 5, color blue, and turn it off
-      for the second object.
+    * For the first object: Assign `speed` to maximum, `radius` to `10`,
+      `color` to `yellow`, and turn it on.
+    * For the second object: Assign `speed` to medium, `radius` to `5`,
+      `color` to `blue`, and turn it off.
     * Display the objects by invoking their `toString` method.
 
 2. Design a class named `RegularPolygon` (in an n-sided regular polygon all
@@ -48,10 +48,31 @@ Lab 4.2 - Classes and Objects
     * The method `getArea()` that returns the area of the polygon.
       The formula for computing the area of a regular polygon is:
 
-            Area = (n * s * s) / (4 * tan(p/n))
+            Area = n·s² / 4·tan(π/n)
     * Draw the UML diagram for the class.
     * Implement the class.
     * Write a test program that creates three `RegularPolygon` objects,
       with the no-arg constructor, `RegularPolygon(4, 6)`,
       and `RegularPolygon(10, 4, 5.6, 7.8)`.
     * For each object, display its perimeter and area.
+
+3. Define the Rectangle class that contains:
+    * Two `int` data fields `x` and `y` as rectangle center coordinates
+    * Two `int` data fields `width` and `height` with get and set methods
+    * A static `rectangleCount` variable that keeps the count of the
+      rectangles created, initially `0`
+    * `MAX_COUNT`, a constant with value `3`
+    * A no-arg constructor that creates a default rectangle with `(0, 0)`
+      for `(x, y)`, and `1` for both `width` and `height`,
+    * A constructor that creates a rectangle with the specified
+      `x`, `y`, `width`, and `height`.
+    * Both constructors above increment the value of `rectangleCount` by one.
+    * Static method `isFull()` returns true if `rectangleCount >= MAX_COUNT`.
+    * Write get and set methods if necessary.
+    * A method `getArea()` that returns the area of the rectangle.
+    * A method `getPerimeter()` that returns the perimeter of the rectangle.
+    * A method `contains(int x, int y)` that returns `true`
+      if the specified point `(x, y)` is inside this rectangle.
+    * Test the class above, and create several rectangles.
+    * After each change, display values of `rectangleCount`, `MAX_COUNT`,
+      and `isFull()`, and whether a point is inside a rectangle.
