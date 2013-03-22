@@ -45,7 +45,7 @@ public class Complex {
   }
 
   public Complex divide(Complex other) {
-    Complex numerator = this.multiply(this.conjugate());
+    Complex numerator = this.multiply(other.conjugate());
     Complex denominator = other.multiply(other.conjugate());
     return numerator.divide(denominator.r);
   }

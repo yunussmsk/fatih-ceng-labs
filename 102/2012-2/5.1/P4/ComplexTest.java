@@ -11,7 +11,7 @@ public class ComplexTest {
     System.out.println("C3: " + c3);
     System.out.println("C4: " + c4);
     
-    System.out.println("C1 + 12 = " + c1.add(11));
+    System.out.println("C1 + 11 = " + c1.add(11));
     System.out.println("C2 * 33 = " + c2.multiply(33));
     System.out.println("C1 - C2 = " + c1.subtract(c2));
     System.out.println("C1 / C2 = " + c1.divide(c2));
